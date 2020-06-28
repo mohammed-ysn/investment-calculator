@@ -1,6 +1,7 @@
 def yearly_return(start):
+    monthly_growth = 1.1
     # Assuming monthly growth is 6.5%
-    return start * (pow(1.065, 12))
+    return start * (pow(monthly_growth, 12))
 
 
 withdraw = 0.2
